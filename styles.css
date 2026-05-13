@@ -47,22 +47,30 @@ table {
 	border-spacing: 0;
 }
 
-/* ------------------------ */
 
 @font-face {
     font-family:"Norse" ;
     src: url("./fonts/Norse.otf");
 }
 
+/* ------------------------ */
+
+.container{
+  display: flex;
+  min-height: 100vh;
+}
+
+
 
 .leftSide{
     display: flex;
+    
 }
 
 .backgroundImg{
+    max-height: 648px;
     height: auto;
-    width: 35%;
-   display: flex;   
+    width: 515px;
     
 }
 
@@ -71,7 +79,7 @@ table {
     position: absolute;
     top: 25%;
     height: 100px;
-    width: 470px;
+    width: 515px;
     font-size: 90px;
     font-family: Norse;
     background-color:rgba(0, 0, 0, 0.532);
@@ -86,3 +94,11 @@ table {
     height: 80px;
 }
 
+
+/* Right side of the page */
+
+
+.rightSide{
+   float: right;
+    
+}
